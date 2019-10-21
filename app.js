@@ -5,7 +5,7 @@ app.use(express.static("public"));//access img css js or any external file
 //routes ---can also be POST method vs get
 app.get("/", function(req,res)//root route
 {
-   res.render("index.html");
+   res.render("index.ejs");
    //res.send("it works!"); 
    
 });
