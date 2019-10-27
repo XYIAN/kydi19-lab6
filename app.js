@@ -9,13 +9,25 @@ app.get("/", function(req,res)//root route
    //res.send("it works!"); 
    
 });
-app.get("/mercury", function(req,res)//root route
+app.get("/mercury", function(req,res)// route 1
 {
    res.render("mercury.ejs"); 
 });
-app.get("/venus", function(req,res)//root route
+app.get("/venus", function(req,res)//route 2
 {
    res.render("venus.ejs"); 
+});
+app.get("/mars", function(req,res)//route 3
+{
+   res.render("mars.ejs"); 
+});
+app.get("/jupiter", function(req,res)//route 4
+{
+   res.render("jupiter.ejs"); 
+});
+app.get("/saturn", function(req,res)//route 5
+{
+   res.render("saturn.ejs"); 
 });
 
 

@@ -1,0 +1,22 @@
+body
+{
+    background-color: maroon; 
+    color: white;
+    opacity: 50; 
+}
+.nav
+{
+    color:white;
+}
+.move
+{
+    text-align: center; 
+    background-color: black; 
+    color: red;
+}
+.move2
+{
+    text-align: center; 
+    background-color: red; 
+    color: white;
+}
