@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/XYIAN/kydi19-lab6#readme",
   "dependencies": {
-    "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
   }
 }

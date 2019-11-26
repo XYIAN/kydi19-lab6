@@ -5,29 +5,34 @@ app.use(express.static("public"));//access img css js or any external file
 //routes ---can also be POST method vs get
 app.get("/", function(req,res)//root route
 {
-   res.render("index.ejs");
+   res.render("index.ejs");//HOME PAGE
    //res.send("it works!"); 
    
 });
-app.get("/mercury", function(req,res)// route 1
+app.get("/experience", function(req,res)// route 1
 {
-   res.render("mercury.ejs"); 
+   res.render("experience.ejs"); 
 });
-app.get("/venus", function(req,res)//route 2
+
+
+app.get("/education", function(req,res)//route 2
 {
-   res.render("venus.ejs"); 
+   res.render("education.ejs"); 
 });
-app.get("/mars", function(req,res)//route 3
+
+app.get("/resume", function(req,res)//route 3
 {
-   res.render("mars.ejs"); 
+   res.render("resume.ejs"); 
 });
-app.get("/jupiter", function(req,res)//route 4
+
+app.get("/contact", function(req,res)//route 4
 {
-   res.render("jupiter.ejs"); 
+   res.render("contact.ejs"); 
 });
-app.get("/saturn", function(req,res)//route 5
+
+app.get("/me", function(req,res)//route 5
 {
-   res.render("saturn.ejs"); 
+   res.render("me.ejs"); 
 });
 
 
@@ -35,8 +40,17 @@ app.get("/saturn", function(req,res)//route 5
 //8081(have to include in url) , "0, 0 , 0 , 0" -used for php type
 app.listen(process.env.PORT, process.env.IP , function()//using local host port 8080 127
 {
-    console.log("Express Server is Running...");
+   var loopNum = 4; 
+    
+    for(let i = 0 ; i < loopNum ; i++)
+    {
+       console.log("Opening with KEY::ID" + (i*34) + " ACCESS");
+       console.log("Opening with KEY::ID" + (i*346)+ 0 + " accessACCESS");
+    }
+    console.log("Welcome Mr. Dilbeck, currently retreiving IP ::::");
+    console.log("Express Server is now Running...");
 });
+
 //end basic express code
 
 
