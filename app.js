@@ -47,7 +47,7 @@ app.listen(process.env.PORT, process.env.IP , function()//using local host port 
        console.log("Opening with KEY::ID" + (i*34) + " ACCESS");
        console.log("Opening with KEY::ID" + (i*346)+ 0 + " accessACCESS");
     }
-    console.log("Welcome Mr. Dilbeck, currently retreiving IP ::::");
+    console.log("Welcome , currently retreiving IP ::::");
     console.log("Express Server is now Running...");
 });
 
