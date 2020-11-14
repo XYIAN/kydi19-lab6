@@ -1,0 +1,4 @@
+language: ejs
+rvm:
+ - 2.7.2
+ - ejs
